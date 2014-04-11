@@ -170,14 +170,6 @@ public abstract class Cocos2dxActivity extends Activity implements Cocos2dxHelpe
       Log.d(TAG, "isEmulator=" + isEmulator);
       return isEmulator;
    }
-
-   /* (non-Javadoc)
- * @see android.app.Activity#onKeyDown(int, android.view.KeyEvent)
- */
-@Override
-public boolean onKeyDown(int keyCode, KeyEvent event) {
-	return super.onKeyDown(keyCode, event);
-}
    
 	// ===========================================================
 	// Inner and Anonymous Classes
